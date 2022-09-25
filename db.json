@@ -7,13 +7,27 @@
     },
     {
       "id": 2,
-      "name": "superman",
+      "name": "Superman",
       "alterEgo": "Clark Kent"
     },
     {
       "id": 3,
-      "name": "Wonder Woman",
+      "name": "Wonder Woman 1 ",
       "alterEgo": "Princess Diana"
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "kareem"
+    },
+    {
+      "id": 2,
+      "name": "mohamed"
+    },
+    {
+      "id": 3,
+      "name": "hakim"
     }
   ]
 }

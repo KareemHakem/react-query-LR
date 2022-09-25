@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
 
-export default function SuperHeroes() {
+export default function SuperHeroes({ superHeroes }) {
   return (
-    <div>SuperHeroes</div>
-  )
+    <>
+      <h1>Super Heroes Page</h1>
+      {superHeroes.map((hero) => (
+        <div key={hero.id}>{hero.name}</div>
+      ))}
+    </>
+  );
 }
