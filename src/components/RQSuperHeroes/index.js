@@ -15,8 +15,7 @@ export default function RQSuperHeroes() {
   const { data, error, isError, isLoading, isFetching, refetch } =
     useSuperheroesData(onSuccess, onError);
 
-  if ((isLoading, isFetching))
-    return "loading........................................";
+  if ((isLoading, isFetching)) return "loading...";
   if (isError) return <h2>{error.message}</h2>;
 
   console.log({ isLoading, isFetching });
